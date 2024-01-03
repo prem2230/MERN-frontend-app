@@ -1,0 +1,77 @@
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+  margin-top: 10px;
+  
+}
+.addTask{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.input{
+  display: flex;
+  flex-direction: column;
+  justify-content:  center;
+  align-items: center;
+}
+.input input{
+  width: 50vh;
+  height: 30px;
+}
+label{
+  text-align: left;
+}
+.taskList{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.taskList button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+td button:last-child {
+  margin-right: 0;
+}
+.updateContainer{
+  align-items: center;
+  justify-content: center;
+}
+.updateList{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.closebtn{
+ margin-left: 150vh;
+}
+.btns{
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+
+}
+.btns button{
+  width: 150px;
+}
